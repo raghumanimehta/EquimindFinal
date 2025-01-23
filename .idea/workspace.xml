@@ -53,6 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -171,6 +172,7 @@
       <workItem from="1737481780156" duration="133000" />
       <workItem from="1737481918508" duration="22000" />
       <workItem from="1737481956804" duration="15000" />
+      <workItem from="1737482047423" duration="1086000" />
     </task>
     <servers />
   </component>
