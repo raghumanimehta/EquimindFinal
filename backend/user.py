@@ -33,6 +33,7 @@ class User:
         self._password = password
         self._current_streak = current_streak
         self._last_mood_entry = last_mood_entry
+        self._mood_array: Mood[] = []
 
     @property
     def id(self) -> int:
@@ -93,3 +94,17 @@ class User:
     @last_mood_entry.setter
     def last_mood_entry(self, value: Optional[datetime]):
         self._last_mood_entry = value
+    
+    @property 
+    def mood_array(self) -> Mood[]:
+        return self._mood_array 
+    
+    def add_mood(self, Mood: mood): 
+        self._mood_array.append(mood)
+    
+    def remove_mood(self, Mood: mood):
+        self._mood_array.remove(mood)
+        
+
+    
+        
