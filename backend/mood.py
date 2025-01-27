@@ -29,7 +29,7 @@ class Mood:
                  sleep_quality: Optional[SleepQuality] = None,
                  stress_level: Optional[StressLevel] = None,
                  sleep_hours: Optional[float] = None,
-                 physical_activity: Optional[bool] = None,
+                #  physical_activity: Optional[bool] = None,
                  activities: List[str] = None,
                  notes: str = None):
         self.level = level
@@ -37,7 +37,7 @@ class Mood:
         self.sleep_quality = sleep_quality
         self.stress_level = stress_level
         self.sleep_hours = sleep_hours
-        self.physical_activity = physical_activity
+        # self.physical_activity = physical_activity
         self.activities = activities or []
         self.notes = notes
 
@@ -49,6 +49,7 @@ class Mood:
         
     def get_numerical_score(self) -> int:
         return self.level.value
+
 
     
 
